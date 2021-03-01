@@ -9,7 +9,9 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp-details.xlsx",
+				"container": "mycontainer"
 			},
 			"firstRowAsHeader": true
 		},
