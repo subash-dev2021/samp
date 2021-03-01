@@ -1,0 +1,6 @@
+
+SELECT * FROM sys.firewall_rules ORDER BY name;
+
+select * from sys.database_firewall_rules
+delete from sys.database_firewall_rules
+execute sp_delete_database_firewall_rule N'Allow Azure'
